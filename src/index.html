@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/journal.css">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Tajawal&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Daily Journal</h1>
+
+    <form action="">
+        <fieldset>
+            <label for="journalDate">Date of Entry:<br></label>
+            <input type="date" name="journalDate" id="journalDate">    
+        </fieldset>
+        <fieldset>
+            <label for="conceptsCovered">Concepts Covered:<br></label>
+            <input type="text">
+        </fieldset>
+        <fieldset>
+            <label for="journalEntry">Journal Entry:<br></label>
+            <textarea rows = "5" column = "50"  
+            ></textarea>
+        </fieldset>
+        <fieldset>
+            <label for="mood">Mood for the Day:</label>
+            <select>
+                <option value="Fantastic">Fantastic</option>
+                <option value="Good">Good</option>
+                <option value="Meh">Meh</option>
+                <option value="PullingMyHairOut">Pulling My Hair Out</option>
+            </select>
+        </fieldset>
+        <input type="submit" value="Record Journal Entry" />
+        </form>
+</body>
+</html>
