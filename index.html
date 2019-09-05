@@ -11,17 +11,17 @@
 <body>
     <h1>Daily Journal</h1>
 
-    <form action="">
+<form action="">
         <fieldset>
-            <label for="journalDate">Date of Entry:<br></label>
+            <label for="journalDate">Date:<br></label>
             <input type="date" name="journalDate" id="journalDate">    
         </fieldset>
         <fieldset>
-            <label for="conceptsCovered">Concepts Covered:<br></label>
+            <label for="conceptsCovered">Concepts:<br></label>
             <input type="text">
         </fieldset>
         <fieldset>
-            <label for="journalEntry">Journal Entry:<br></label>
+            <label for="Entry">Journal Entry:<br></label>
             <textarea rows = "5" column = "50"  
             ></textarea>
         </fieldset>
@@ -35,7 +35,12 @@
             </select>
         </fieldset>
         <input type="submit" value="Record Journal Entry" />
-        </form>
+    <article class = "entryLog">
+    </article>
+</form>
+    <script src="./scripts/data.js"></script>
+    <script src="./scripts/entiresDOM.js"></script>
+    <script src="./scripts/entryComponent.js"></script>
     <script src="./scripts/journal.js"></script>
 </body>
 </html>

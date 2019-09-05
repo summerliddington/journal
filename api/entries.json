@@ -1,0 +1,19 @@
+{
+    "journalEntries": [
+        {
+            "id": 1,
+            "Date": "9/1/2019",
+            "Concepts": "Functions",
+            "Entry": "getting the hang of it",
+            "Mood": "ok"
+        },
+        {
+            "id": 2,
+            "date": "9/2/2019",
+            "Concepts": "JSON", 
+            "Entry": "still figuring it out", 
+            "Mood": "ok"
+
+        }
+    ]
+}
